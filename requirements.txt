@@ -1,0 +1,28 @@
+# Project dependencies for humor-eval (Python 3.13)
+# Installed via: pip install -r requirements.txt
+
+# Core
+datasets>=4.0.0
+pillow>=10.4
+numpy>=1.26
+pandas>=2.2
+pyarrow>=15.0
+
+torchvision>=0.23.0
+transformers-v4.55.0-GLM-4.5V-preview
+accelerate>=1.10.0
+gradio>=5.42.0
+pre-commit>=4.2.0
+PyMuPDF>=1.26.3
+av>=15.0.0
+spaces>=0.40.0
+sglang>=0.5.0rc1
+
+# Vision/ML
+torchvision
+
+# Notebook UX & utils
+jupyter
+ipywidgets
+tqdm
+safetensors
