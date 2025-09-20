@@ -1,8 +1,8 @@
 from typing import Iterable, List
 from datasets import load_dataset
-from dataset_types import DatasetEntry
+from .dataset_types import DatasetEntry
 
-DATASET_NAME = "newyccku/caption_dataset_rl_v2"
+DATASET_NAME = "newyccku/caption_dataset_rl_v5"
 DEFAULT_SPLIT = "test"
 
 

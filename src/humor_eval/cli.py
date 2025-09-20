@@ -1,6 +1,6 @@
 import argparse
-from data import load_entries
-from models import load_model, chat_infer
+from .data import load_entries
+from .models import load_model, chat_infer
 
 
 def main():

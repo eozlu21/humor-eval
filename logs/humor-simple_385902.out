@@ -1,0 +1,27 @@
+
+'micromamba' is running as a subprocess and can't modify the parent shell.
+Thus you must initialize your shell before using activate and deactivate.
+
+To initialize the current  shell, run:
+    $ eval "$(micromamba shell hook --shell )"
+and then activate or deactivate with:
+    $ micromamba activate
+To automatically initialize all future () shells, run:
+    $ micromamba shell init --shell  --root-prefix=~/.local/share/mamba
+If your shell was already initialized, reinitialize your shell with:
+    $ micromamba shell reinit --shell 
+Otherwise, this may be an issue. In the meantime you can run commands. See:
+    $ micromamba run --help
+
+Supported shells are {bash, zsh, csh, posix, xonsh, cmd.exe, powershell, fish, nu}.
+Env activate fallback proceed
+Python: /home/eozlu21/micromamba/envs/humor-eval-env/bin/python
+Python 3.13.5
+Running: python -m humor_eval.run_simple --split test --max_new_tokens 2048 --output_dir results_simple_2048
+Model device allocation: cuda:0, cuda:1
+Saved simple evaluation to results_simple_2048/results_simple_only_test_20250920_230332.json
+total 3.8M
+-rw-r--r-- 1 eozlu21 hpcusers 1.5M Sep 21  2025 results_simple_only_test_20250920_230332.json
+-rw-r--r-- 1 eozlu21 hpcusers 793K Sep 21 00:20 results_simple_only_test_hard_20250920_230336.json
+-rw-r--r-- 1 eozlu21 hpcusers 794K Sep 20 22:40 results_simple_only_test_very_hard_20250920_212217.json
+-rw-r--r-- 1 eozlu21 hpcusers 802K Sep 21 00:21 results_simple_only_test_very_hard_20250920_230332.json
